@@ -1,0 +1,20 @@
+{
+    "name": "test-gitdeploy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "ecosystem.config.js",
+    "scripts": {
+        "build": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nathtale/test-code-deploy.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nathtale/test-code-deploy/issues"
+    },
+    "homepage": "https://github.com/nathtale/test-code-deploy#readme"
+}
