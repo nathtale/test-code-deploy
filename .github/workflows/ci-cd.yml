@@ -38,10 +38,10 @@ jobs:
       matrix:
         python-version: [3.8]
         node-version: ['12.x']
-        appname: ['aws-codedeploy']
+        appname: ['n-codedeploy-app']
         deploy-group: ['staging']
         s3-bucket: ['n-aws-codedeploy-deployments']
-        s3-filename: ['staging-aws-codedeploy-${{ github.sha }}']
+        s3-filename: ['staging-n-codedeploy-app-${{ github.sha }}']
 
     needs: buildAndTest
     steps:
